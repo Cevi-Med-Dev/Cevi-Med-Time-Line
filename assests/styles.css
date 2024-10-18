@@ -138,7 +138,7 @@ img.arrow{
 	height: auto;
 }
 .imgContainer span.caption{
-	text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 darkgreen,
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
     1px 1px 0 black;
 	position: absolute;
 	left: -5px;
