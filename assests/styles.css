@@ -129,8 +129,7 @@ body {
 	height: auto;
 }
 img.arrow{
-	
-	width: 30px;
+	width: 30px !important;
 	height: auto;
 }
 .imgContainer{
