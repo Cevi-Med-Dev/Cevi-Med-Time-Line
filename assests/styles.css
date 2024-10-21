@@ -299,7 +299,8 @@ ul li:nth-child(odd) .date {
 	transform: translateX(30px);
 }
 video.mainVid{
-	height: 300px;
+	width: 50%;
+	height: auto;
 }
 h3.heading {
 	font-size: 17px;
