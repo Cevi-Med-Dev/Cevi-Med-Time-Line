@@ -34,7 +34,7 @@ body {
 }
 
 .main p b {
-	scale: 1;
+	scale: 1.57;
 }
 
 .hidden{
@@ -87,7 +87,7 @@ body {
 	animation: moveline 25s linear forwards;
 }
 
-@keyframes moveline {
+/* @keyframes moveline {
 	0% {
 		height: 0;
 	}
@@ -95,7 +95,7 @@ body {
 	100% {
 		height: 100%;
 	}
-}
+} */
 
 .container ul li {
 	width: 50%;
@@ -107,7 +107,7 @@ body {
 	position: relative;
 	margin: 100px 0;
 	z-index: 99;
-	opacity: 0;
+	opacity: 1;
 	animation: appear 3s linear forwards;
 }
 .container aside.moreInfo{
@@ -117,6 +117,15 @@ body {
     padding: 10px;
     width: 130%;
 	text-align: center;
+	
+}
+aside.moreInfo p{
+	
+	text-align: center;
+}
+aside.moreInfo p img{
+	width: 100%;
+	height: auto;
 }
 .container aside.right{
 	right: -165% !important;
@@ -124,7 +133,7 @@ body {
 .container aside.left{
 	left: -165% !important;
 }
-.container aside.moreInfo object{
+.container aside.moreInfo video{
 	width: 100%;
 	height: auto;
 }
@@ -165,7 +174,7 @@ img.picture {
 	border-bottom: 40px solid black;
 }
 
-@keyframes appear {
+/* @keyframes appear {
 	0% {
 		opacity: 0.01;
 
@@ -175,7 +184,7 @@ img.picture {
 		opacity: 100;
 
 	}
-}
+} */
 
 .container ul li:nth-child(1) {
 	animation-delay: none;
@@ -289,9 +298,12 @@ ul li:nth-child(odd) .date {
 	clear: left;
 	transform: translateX(30px);
 }
-
-ul li .heading {
+video.mainVid{
+	height: 300px;
+}
+h3.heading {
 	font-size: 17px;
+	margin: 5px;
 	color: #c40c11;
 }
 
@@ -328,7 +340,7 @@ ul li a {
 @media only screen and (max-width: 850px){
 
 	.imgContainer span.caption{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	img.picture {
 		border-bottom: 100px solid black;
@@ -398,5 +410,10 @@ ul li a {
 
 	.container ul li .circle {
 		left: -20px;
+		font-size: 8px;
+	}
+	span.caption{
+
+		font-size: 25px !important;
 	}
 }
