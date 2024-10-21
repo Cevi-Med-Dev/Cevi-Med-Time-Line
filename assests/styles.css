@@ -186,7 +186,7 @@ img.picture {
 	}
 } 
 
-.container ul li:nth-child(1) {
+/* .container ul li:nth-child(1) {
 	animation-delay: none;
 }
 
@@ -236,7 +236,7 @@ img.picture {
 
 .container ul li:nth-child(4) {
 	animation-delay: 0;
-}
+} */
 
 .container ul li .circle {
 	position: absolute;
