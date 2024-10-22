@@ -308,8 +308,12 @@ ul li:nth-child(odd) .date {
 	transform: translateX(30px);
 }
 aside.right:has(> video.mainVid){
-	padding: 30px;
-	top: -175px;
+	
+}
+video.mainVid{
+	
+	max-height: 300px !important;
+	width: auto;
 }
 h3.heading {
 	font-size: 17px;
@@ -350,7 +354,7 @@ ul li a {
 @media only screen and (max-width: 850px){
 	.imgContainer span.caption.two{
 		position: relative;
-		left: 25px;
+		left: 55px;
 		bottom: 55px;
 	}
 	.imgContainer span.caption{
