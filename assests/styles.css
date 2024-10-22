@@ -165,6 +165,11 @@ img.arrow{
 	font-style: normal;
 	
 }
+.imgContainer span.caption.two{
+	position: relative;
+	left: 20px;
+	bottom: 35px;
+}
 .flip{
 	transform: rotate(-180deg) !important;
 }
@@ -343,7 +348,11 @@ ul li a {
 	border-radius: 5px;
 }
 @media only screen and (max-width: 850px){
-
+	.imgContainer span.caption.two{
+		position: relative;
+		left: 25px;
+		bottom: 55px;
+	}
 	.imgContainer span.caption{
 		font-size: 30px;
 	}
@@ -420,5 +429,10 @@ ul li a {
 	span.caption{
 
 		font-size: 25px !important;
+	}
+	.imgContainer span.caption.two{
+		position: relative;
+		left: 20px;
+		bottom: 55px;
 	}
 }
