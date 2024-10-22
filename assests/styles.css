@@ -172,6 +172,7 @@ img.picture {
 	height: auto;
 	-webkit-transform: rotate(5deg);
 	border: 10px solid black;
+	margin-top: 10px;
 	border-radius: 5px;
 	border-bottom: 40px solid black;
 }
