@@ -307,9 +307,9 @@ ul li:nth-child(odd) .date {
 	clear: left;
 	transform: translateX(30px);
 }
-video.mainVid{
-	width: 20%;
-	height: auto;
+aside.right:has(> video.mainVid){
+	padding: 30px;
+	top: -175px;
 }
 h3.heading {
 	font-size: 17px;
