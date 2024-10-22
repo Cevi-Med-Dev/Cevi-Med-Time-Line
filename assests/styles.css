@@ -302,7 +302,7 @@ ul li:nth-child(odd) .date {
 	transform: translateX(30px);
 }
 video.mainVid{
-	width: 70%;
+	width: 20%;
 	height: auto;
 }
 h3.heading {
